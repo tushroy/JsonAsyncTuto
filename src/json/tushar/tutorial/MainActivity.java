@@ -1,7 +1,5 @@
 package json.tushar.tutorial;
 
-import json.tushar.sample.R;
-
 import org.json.JSONArray;
 import org.json.JSONObject;
 
