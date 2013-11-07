@@ -18,7 +18,7 @@ public class JSONParser {
 
 	public JSONParser(String url) throws ParseException,
 			ClientProtocolException, JSONException, IOException {
-		// My ultimate constructor :D
+		// My ultimate constructor 
 		jsonObj = new JSONObject(EntityUtils.toString(new DefaultHttpClient()
 				.execute(new HttpGet(url)).getEntity()));
 	}
